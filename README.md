@@ -22,7 +22,7 @@
 
 
 ---
-Комманды для работы с GIT
+#Комманды для работы с GIT
 git clone https://github.com/Nikolay-Protopopov/homework-zabbix.git
 cd homework-zabbix 
 mkdir screenshots
@@ -33,6 +33,7 @@ git push origin main
 
 ### Задание 1
 Установите Zabbix Server с веб-интерфейсом.
+![Запрос авторизации Zabbix](https://github.com/Nikolay-Protopopov/homework-zabbix/tree/main/screenshots/Login.png)
 ### Задание 2
 Установите Zabbix Agent на два хоста.
 ### Задание 3
