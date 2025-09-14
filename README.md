@@ -22,10 +22,10 @@
 
 
 ---
-Комманды для работы с GIT \n
-git clone https://github.com/Nikolay-Protopopov/homework-zabbix.git \n
-cd homework-zabbix \n
-mkdir screenshots \n
+Комманды для работы с GIT
+git clone https://github.com/Nikolay-Protopopov/homework-zabbix.git
+cd homework-zabbix 
+mkdir screenshots
 git add README.md screenshots/ 
 git commit -m "Добавлены скриншоты и обновлен README"
 git remote set-url origin https://мой токен@github.com/Nikolay-Protopopov/homework-zabbix.git
