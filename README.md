@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Название занятия`" - `Фамилия и имя студента`
+# Домашнее задание к занятию "`"Система мониторинга Zabbix"" - `Протопопов Николай Андреевич
 
 
 ### Инструкция по выполнению домашнего задания
@@ -20,13 +20,14 @@
 
 1. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
 
+
 ---
-Комманды для работы с GIT
-git clone https://github.com/Nikolay-Protopopov/homework-zabbix.git 
-cd homework-zabbix
-mkdir screenshots
-git add screenshots/ 
-git commit -m "Добавлены скриншоты для задания"
+Комманды для работы с GIT \n
+git clone https://github.com/Nikolay-Protopopov/homework-zabbix.git \n
+cd homework-zabbix \n
+mkdir screenshots \n
+git add README.md screenshots/ 
+git commit -m "Добавлены скриншоты и обновлен README"
 git remote set-url origin https://мой токен@github.com/Nikolay-Protopopov/homework-zabbix.git
 git push origin main
 
