@@ -23,17 +23,17 @@
 
 ---
 #Комманды для работы с GIT
-git clone https://github.com/Nikolay-Protopopov/homework-zabbix.git
-cd homework-zabbix 
-mkdir screenshots
-git add README.md screenshots/ 
-git commit -m "Добавлены скриншоты и обновлен README"
-git remote set-url origin https://мой токен@github.com/Nikolay-Protopopov/homework-zabbix.git
-git push origin main
+1. git clone https://github.com/Nikolay-Protopopov/homework-zabbix.git
+2. cd homework-zabbix 
+3. mkdir screenshots
+4. git add README.md screenshots/ 
+5. git commit -m "Добавлены скриншоты и обновлен README"
+6. git remote set-url origin https://мой токен@github.com/Nikolay-Protopopov/homework-zabbix.git
+7. git push origin main
 
 ### Задание 1
 Установите Zabbix Server с веб-интерфейсом.
-![Запрос авторизации Zabbix](https://github.com/Nikolay-Protopopov/homework-zabbix/tree/main/screenshots/Login.png)
+![Login](screenshots/Login.png)
 ### Задание 2
 Установите Zabbix Agent на два хоста.
 ### Задание 3
