@@ -28,7 +28,7 @@
 3. mkdir screenshots
 4. git add README.md screenshots/ 
 5. git commit -m "Добавлены скриншоты и обновлен README"
-6. git remote set-url origin https://мой токен@github.com/Nikolay-Protopopov/homework-zabbix.git
+6. git remote set-url origin "https://мой токен@github.com/Nikolay-Protopopov/homework-zabbix.git"
 7. git push origin main
 
 ### Задание 1
@@ -36,6 +36,10 @@
 ![Login](screenshots/Login.png)
 ### Задание 2
 Установите Zabbix Agent на два хоста.
+![Configuration-Hosts](screenshots/Configuration-Hosts.png)
+![Availabity-report](screenshots/Availabity-report.png)
+![Availabity](screenshots/Monitoring-Latestdata.png)
+
 ### Задание 3
 Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
 Поскольку у меня клиент за NAT настраивал в режиме Active. Требуется настройка клиента на Win, особенность в соответсвии поля Hostname указанного на клиенте и в регистрации хоста на zabbix.
