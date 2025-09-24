@@ -30,8 +30,7 @@
 5. git rm screenshots/*
 6. git add README.md screenshots/ 
 7. git commit -m "Добавлены скриншоты и обновлен README"
-8. git remote set-url origin "https://мой токен@github.com/Nikolay-Protopopov/homework-zabbix.git"
-9. git push origin main
+8. git push origin main
 
 ### Задание 1
 Что нужно сделать:
@@ -45,10 +44,12 @@
 ![Login](screenshots/3.png)
 ![Login](screenshots/4.png)
 ### Задание 2
-Установите Zabbix Agent на два хоста.
-![Configuration-Hosts](screenshots/Configuration-Hosts.png)
-![Availabity-report](screenshots/Availabity-report.png)
-![Availabity](screenshots/Monitoring-Latestdata.png)
+1. Запушьте репозиторий на GitLab, изменив origin. Это изучалось на занятии по Git.
+2. Создайте .gitlab-ci.yml, описав в нём все необходимые, на ваш взгляд, этапы.
+![Login](screenshots/5.png)
+![Login](screenshots/6.png)
+![Login](screenshots/7.png)
+![Login](screenshots/8.png)
 
 ### Задание 3
 Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
