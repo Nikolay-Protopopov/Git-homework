@@ -1,0 +1,28 @@
+stages:
+  - test
+  - build
+
+# Этап тестирования Go
+test:
+  stage: test
+  image: golang:1.17
+  script:
+    - go mod tidy
+    - go test ./...
+  rules:
+    - changes:
+        - "*.go"   # запускать только при изменении файлов .go
+    - when: never   # иначе не запускать
+
+# Этап сборки Docker-образа
+build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  variables:
+    DOCKER_HOST: tcp://docker:2375/
+    DOCKER_TLS_CERTDIR: ""
+  script:
+    - docker build -t myapp .
+  needs: []  # запускать сразу, не дожидаясь тестов
