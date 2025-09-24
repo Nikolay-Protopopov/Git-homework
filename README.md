@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`"Система мониторинга Zabbix"" - `Протопопов Николай Андреевич
+# Домашнее задание к занятию «GitLab» - `Протопопов Николай Андреевич
 
 
 ### Инструкция по выполнению домашнего задания
@@ -23,13 +23,15 @@
 
 ---
 #Комманды для работы с GIT
-1. git clone https://github.com/Nikolay-Protopopov/homework-zabbix.git
-2. cd homework-zabbix 
-3. mkdir screenshots
-4. git add README.md screenshots/ 
-5. git commit -m "Добавлены скриншоты и обновлен README"
-6. git remote set-url origin "https://мой токен@github.com/Nikolay-Protopopov/homework-zabbix.git"
-7. git push origin main
+1. cp -r homework-zabbix homework-git делаю копию пред работы
+2. cd homework-git
+3. git remote remove origin удалить привязку
+4. git remote add origin https://мой токен@github.com/Nikolay-Protopopov/Git-homework.git 
+5. git rm screenshots/*
+6. git add README.md screenshots/ 
+7. git commit -m "Добавлены скриншоты и обновлен README"
+8. git remote set-url origin "https://мой токен@github.com/Nikolay-Protopopov/homework-zabbix.git"
+9. git push origin main
 
 ### Задание 1
 Установите Zabbix Server с веб-интерфейсом.
